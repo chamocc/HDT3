@@ -14,7 +14,10 @@ import java.util.Random;
 
 /**
  *
- * @author Daniel
+ * @Daniel Gerendas 13158
+ * @Alejandro Diaz 13082
+ * @Edgar Chamo 13083
+ * @since 25/07/2014
  * Codigo tomado de internet
  * link: http://codigoprogramacion.com/cursos/java/130-manejo-de-archivos-en-java-escribir-en-un-archivo-de-texto-txt.html#.U9Jgs_l5P51
  * Partes alteradas del código original para adptarlo a nuestras necesidades

@@ -5,8 +5,11 @@
  */
 
 /**
- *
- * @author Daniel
+ * @
+ * @Daniel Gerendas 13158
+ * @Alejandro Diaz 13082
+ * @Edgar Chamo 13083
+ * @since 25/07/2014
  */
 public class InsertionSort {
    
