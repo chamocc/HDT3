@@ -23,7 +23,7 @@ public class BubbleSort {
     // bubble a large element to higher array index
                 for (index = 1; index < n-numSorted; index++)
                 {
-                    if (data[index-1] > data[index])
+                    if (data[index] > data[index+1])
                     {
                        swap = data[index];
                        data[index]=data[index+1];
