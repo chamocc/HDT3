@@ -28,11 +28,11 @@ public class Main {
       try {
          // Apertura del fichero y creacion de BufferedReader para poder
          // hacer una lectura comoda (disponer del metodo readLine()).
-         archivo = new File ("C:\\Users\\Ed. Chamo\\Desktop\\Trabajos GitHub\\HDT3\\FileGenerator\\datos200.txt");
+         archivo = new File ("C:\\Users\\Ed. Chamo\\Desktop\\Trabajos GitHub\\HDT3\\FileGenerator\\datos400.txt");
          fr = new FileReader (archivo);
          br = new BufferedReader(fr);
-         lista= new String[200];
-         listaInt = new int[200];
+         lista= new String[400];
+         listaInt = new int[400];
  
          // Lectura del fichero
          String linea;
