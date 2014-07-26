@@ -26,7 +26,7 @@ public class Main {
     private static File f;
     private static Random random;
     public static void main(String[] args){
-        f = new File("datos.txt");
+        f = new File("datos2000.txt");
         random=new Random();
 
         //Escritura
