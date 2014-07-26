@@ -39,6 +39,10 @@ public class MergeSort {
             data[ri++] = temp[ti++];
         }
         // ...or some values left (in correct place) in data array
+        
+         for(int i=0; i<data.length; i++){
+          System.out.println(data[i]);
+      }
     }
         
     

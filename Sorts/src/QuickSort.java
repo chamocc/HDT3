@@ -41,7 +41,10 @@ public class QuickSort {
     public static void quickSort(int data[], int n) 
 // post: the values in data[0..n-1] are in ascending order 
     { 
-        quickSortRecursive(data,0,n-1); 
+        quickSortRecursive(data,0,n-1);
+         for(int i=0; i<data.length; i++){
+          System.out.println(data[i]);
+      }
     }
     private static void quickSortRecursive(int data[],int left,int right) 
 // pre: left <= right 

@@ -38,8 +38,7 @@ public class Main {
          String linea;
          int ind=0;
          while((linea=br.readLine())!=null){
-            //lista[ind]=linea;
-             System.out.println(ind);
+            lista[ind]=linea;
             ind++;
          }
       }
@@ -64,11 +63,13 @@ public class Main {
           listaInt[i]=dat;
       }
       
-      InsertionSort.insertionSort(listaInt, listaInt.length-1);
-     // BubbleSort.bubbleSort(listaInt, listaInt.length-1);
-      //QuickSort.quickSort(listaInt, listaInt.length);
       
+     //
+     InsertionSort.insertionSort(listaInt, listaInt.length-1);
+     BubbleSort.bubbleSort(listaInt, listaInt.length-1);
+     QuickSort.quickSort(listaInt, listaInt.length);
       
+     
     }
       
       
