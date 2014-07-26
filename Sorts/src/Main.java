@@ -31,12 +31,16 @@ public class Main {
          archivo = new File ("C:\\Users\\Daniel\\Documents\\Daniel pers\\U\\Segundo año\\Segundo Semestre\\Estructuras de Datos\\Hojas de Trabajo\\Hoja 3\\HDT3\\FileGenerator\\datos.txt");
          fr = new FileReader (archivo);
          br = new BufferedReader(fr);
+         lista= new String[2000];
+         listaInt = new int[2000];
  
          // Lectura del fichero
          String linea;
          int ind=0;
          while((linea=br.readLine())!=null){
-            lista[ind]=linea;
+            //lista[ind]=linea;
+             System.out.println(ind);
+            ind++;
          }
       }
       catch(Exception e){
@@ -60,6 +64,9 @@ public class Main {
           listaInt[i]=dat;
       }
       
+      InsertionSort.insertionSort(listaInt, listaInt.length-1);
+     // BubbleSort.bubbleSort(listaInt, listaInt.length-1);
+      //QuickSort.quickSort(listaInt, listaInt.length);
       
       
     }

@@ -13,7 +13,7 @@
  */
 public class QuickSort {
     
-    private static int quickSort(int data[], int left, int right)
+    private static int partition(int data[], int left, int right)
     // pre: left <= right
     // post: data[left] placed in the correct (returned) location
     {
@@ -38,4 +38,21 @@ public class QuickSort {
       data[right]=temp;
     }
     
+    public static void quickSort(int data[], int n) 
+// post: the values in data[0..n-1] are in ascending order 
+    { 
+        quickSortRecursive(data,0,n-1); 
+    }
+    private static void quickSortRecursive(int data[],int left,int right) 
+// pre: left <= right 
+// post: data[left..right] in ascending order 
+        { int pivot; // the final location of the leftmost value 
+        if (left >= right) return; 
+        pivot = partition(data,left,right); /* 1 - place pivot */ 
+        quickSortRecursive(data,left,pivot-1); /* 2 - sort small */ 
+        quickSortRecursive(data,pivot+1,right);/* 3 - sort large */
+/* done! */ 
+    }
 }
+    
+
