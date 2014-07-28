@@ -65,12 +65,9 @@ public class Main {
       
       
      //
-     InsertionSort.insertionSort(listaInt, listaInt.length-1);
+    /* InsertionSort.insertionSort(listaInt, listaInt.length-1);
      BubbleSort.bubbleSort(listaInt, listaInt.length-1);
-     QuickSort.quickSort(listaInt, listaInt.length);
-      
-     
-    }
-      
-      
+     QuickSort.quickSort(listaInt, listaInt.length);*/
+     MergeSort.mergeSort(listaInt, listaInt.length);
+     }
 }
