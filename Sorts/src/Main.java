@@ -28,11 +28,11 @@ public class Main {
       try {
          // Apertura del fichero y creacion de BufferedReader para poder
          // hacer una lectura comoda (disponer del metodo readLine()).
-         archivo = new File ("C:\\Users\\Ed. Chamo\\Desktop\\Trabajos GitHub\\HDT3\\FileGenerator\\datos1800.txt");
+         archivo = new File ("C:\\Users\\Alejo\\Documents\\4to Semestre\\Algoritmos\\HDT3\\FileGenerator\\ordenados2000.txt");
          fr = new FileReader (archivo);
          br = new BufferedReader(fr);
-         lista= new String[1800];
-         listaInt = new int[1800];
+         lista= new String[2000];
+         listaInt = new int[2000];
  
          // Lectura del fichero
          String linea;
@@ -65,9 +65,9 @@ public class Main {
       
       
      //
-    /* InsertionSort.insertionSort(listaInt, listaInt.length-1);
+    InsertionSort.insertionSort(listaInt, listaInt.length-1);
      BubbleSort.bubbleSort(listaInt, listaInt.length-1);
-     QuickSort.quickSort(listaInt, listaInt.length);*/
+     QuickSort.quickSort(listaInt, listaInt.length);
      MergeSort.mergeSort(listaInt, listaInt.length);
      }
 }
